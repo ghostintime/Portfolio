@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="utf-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b157ccacb3.js" crossorigin="anonymous"></script>
+</head>
+</body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Pictures/logo 2.png" alt="logo 2">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer </p>
+            <h1>Hi, I'm <span>Adams</span> <br>From Nigeria</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Pictures/adams.jpg" alt="adams">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <P>A high performing individual with an exemplary attitude; impeccable integrity; and professionalism, demonstrating drive, enthusiasm and initiative, with the ability to consistently deliver on record time, improve my skill, broaden my horizon and accurately ensure that i contribute to the continuous growth and development of the organization. From the acquired experience during my internship and NYSC program respectively, it is certain that I would perform excellently at any given task.</P>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designer Web/App interfaces</li>
+                        <li><span>Content Creator</span><br>Media Content Creator</li>
+                        <li><span>Reseacher</span><br>Project Reseacher</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>UI/UX Design Training at ED</li>
+                        <li><span>2022 - 2023</span><br>Personal Assistant at National Assembly</li>
+                        <li><span>2021 - 2022</span><br>Project Reseacher</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020</span><br>Elizade University</li>
+                        <li><span>2016</span><br>Sapati International School</li>
+                        <li><span>2014</span><br>Best School International</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------Services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-codiepie fa-beat"></i>
+                <h2>Web Design</h2>
+                <p>I worked directly under the Video Editor, assisted in editing videos. I also worked at News Agency of Nigeria (NAN) where I wrote news stories, features, conducted vox pops, transcribed and edited audio works. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-ghost fa-beat"></i>
+                <h2>Content Creator</h2>
+                <p>I worked directly under the Video Editor, assisted in editing videos. I also worked at News Agency of Nigeria (NAN) where I wrote news stories, features, conducted vox pops, transcribed and edited audio works. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-sheet-plastic fa-beat"></i>
+                <h2>Project Reseacher</h2>
+                <p>I worked directly under the Video Editor, assisted in editing videos. I also worked at News Agency of Nigeria (NAN) where I wrote news stories, features, conducted vox pops, transcribed and edited audio works. </p>
+                <a href="#">Learn more</a> 
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------Portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Pictures/Capture.PNG">
+                <div class="layer">
+                    <h3>Project - Sky Verse</h3>
+                    <p>Showcasing the power of anime on a global scale</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Pictures/Capture 2.PNG">
+                <div class="layer">
+                    <h3>Project - Sky Orisa</h3>
+                    <p>Showcasing the real life African Superhero Folklore</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Pictures/Capture 4.PNG">
+                <div class="layer">
+                    <h3>Project - Sky Mindconnect</h3>
+                    <p>Creating an interface with seamless control and Immersion</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -----------Contact----------- -->
+<div id="contatct">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane fa-beat"></i>adamsjmh@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone fa-beat"></i>09026661157</p>
+                <div class="social-icons">
+                    <a href="http://whatsapp.com"><i class="fa-brands fa-whatsapp fa-beat"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram fa-beat"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin fa-beat"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest fa-beat"></i></a>
+                </div>
+                <a href="Pictures/Jimoh_Adams_Cv.pdf" download class="btn btn2" >Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email"placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn2" >submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Adams. Made with <i class="fa-solid fa-skull fa-beat"></i>Ghost code</p>
+    </div>
+</div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzQDleobkf61iSqgreKg5XPqlyrSBxpeTRm78dANyTBXHCMfZ0u3TufDOFetl7IWC35nw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            } ,5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
